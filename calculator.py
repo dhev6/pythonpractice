@@ -1,7 +1,3 @@
-git add .
-git commit -m "adding validation in calculator"
-git push origin main
-
 import math
 
 print("welcome to simple calculator")
@@ -18,7 +14,7 @@ def choice():
                 print("invalid number, please try again")
         except ValueError:
             print("invalid number, please try again")
-   
+    
     if choice == "+": 
         choice = int(number_1) + int(number_2)
     if choice == "-":
