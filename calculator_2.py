@@ -14,14 +14,14 @@ def multiply(n1, n2):
 def divide(n1, n2):
     if n2 == 0:
         return "Error: cannot divide by zero"
-    return n1 /  n2
+    return n1 / n2
 
 def power(n1, n2):
     return n1 ** n2
 
 def modulus(n1 , n2):   
     if n2 == 0:
-        return "Error: cannot calculate modulus with dvisor"
+        return "Error: cannot calculate modulus with divisor"
     return n1 % n2
 
 print("select operations:")
@@ -36,8 +36,8 @@ while True:
     choice = input("Enter your choice (1/2/3/4/5/6): ")
     if choice in ('1', '2', '3', '4', '5', '6'):
         try:
-            num1 = ("Enter your first number: ")
-            num2 = ("Enter your second number: ")
+            num1 = int(input("Enter your first number: "))
+            num2 = int(input("Enter your second number: "))
         except ValueError:
             print("Invalid input, please enter a number.")
             continue
@@ -55,7 +55,7 @@ while True:
             result = divide(num1, num2)
             print(f"{num1} / {num2} = {result}")
 
-        elif choice =='5':
+        elif choice == '5':
             print(f"{num1} ^ {num2} = {power(num1, num2)}")
         
         elif choice == '6': 
@@ -70,14 +70,3 @@ while True:
         print("invalid input")
 
 
-# rows = 5
-# for i in range(1, rows + 1):
-#   for j in range(i):
-#     print("*", end=" ") 
-#   print() 
-
-# rows = int(input("Enter the row size for the pattern: "))
-# for i in range(rows, 0, -1):  
-#     for j in range(1, i + 1): 
-#         print("*", end=" ")   
-#     print()
