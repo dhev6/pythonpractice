@@ -11,7 +11,7 @@ def check_win(player, computer):
     print(f"you chose {player}, computer chose {computer}")
     if player == computer:
         return "it's a tie!"
-    elif player == "rock": 
+    elif player == "rock":
       if computer == "scissors":
         return "Rock smashes scissors! you win!"
       else:
