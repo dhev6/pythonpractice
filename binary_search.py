@@ -9,7 +9,7 @@ def binarySearch(arr, targetVal):
             return mid
 
         if arr[mid] < targetVal:
-            left = mid + 1
+            left = mid + 1  
         else:
             right = mid - 1
 
@@ -22,5 +22,5 @@ result = binarySearch(my_list, x)
 
 if result != -1:
     print("found at index", result)
-else:
+else:   
     print("not found")
