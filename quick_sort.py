@@ -20,6 +20,6 @@ def quicksort(array, low=0, high=None):
     quicksort(array, low, pivot_index-1)
     quicksort(array, pivot_index+1, high)
 
-mylist = [64, 34, 25, 5, 22, 11, 90, 12]
+mylist = [64, 34, 25, 5, 22, 11, 90, 12]  
 quicksort(mylist)
 print(mylist)

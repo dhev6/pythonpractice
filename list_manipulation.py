@@ -1,8 +1,9 @@
 import math
 
-print("welome to percentage calculator\n")
+print("\nWelome to percentage calculator\n")
 
 def user_input():
+    x = []
     student_name = input("please enter your name: ")
 
     while True:
@@ -32,15 +33,17 @@ def user_input():
         except ValueError:
             print("invalid input, please try again") 
 
-    x = []
+    print("*" * 40)
+    print("\nResult\n")
+    print("*" * 40)
     x.append(subject_1)
     x.append(subject_2)
     x.append(subject_3)
     total_marks = sum(x)
     print(f"{student_name}'s total mark is", total_marks)
-    average = sum(x)/3
+    average = round(sum(x)/3, 2)
     print(f"{student_name}'s average score is", average)
-    percentage = (total_marks/300) * 100
+    percentage = round((total_marks/300) * 100, 2)
     print(f"{student_name}'s percentage is", percentage)
 user_input()
     
@@ -49,7 +52,7 @@ def end_message():
     if user_choice == 'yes':
         user_input()
     elif user_choice == 'no':
-        print("thank you for using percentage calculator!")
+        print("\nthank you for using percentage calculator!\n")
     else:
         print("invalid input, please try again!")
 end_message()
