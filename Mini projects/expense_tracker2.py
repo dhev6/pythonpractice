@@ -17,9 +17,6 @@ def add_to_csv(file_name):
         file.write(f"{date}, {category}, {amount}\n")
     print("Expense recorded successfully!")
 
-def remove_edit(file_name):
-    
-
 def generate_csv_report(file_name):
     total = 0.0
     try:
