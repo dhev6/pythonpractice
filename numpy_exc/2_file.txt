@@ -1,0 +1,31 @@
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+Welcome to numpy!
+
+----- Analysis Results -----
+INFO: 1
+WARNING: 0
+ERROR: 0
+
+----- Analysis Results -----
+INFO: 2
+WARNING: 1
+ERROR: 1
+
+----- Analysis Results -----
+INFO: 3
+WARNING: 2
+ERROR: 2

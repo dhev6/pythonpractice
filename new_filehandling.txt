@@ -1,0 +1,2 @@
+Newly created file with empty content.
+Welcome to numpy program
